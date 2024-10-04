@@ -1,0 +1,157 @@
+.collec-footer-firstdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: rgb(244, 246, 232);
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.durable-furniture-div {
+    width: 20%;
+}
+
+.durable-furniture-img {
+    height: 100%;
+    width: 20%;
+    padding-bottom: 20px;
+}
+
+.durable-furniture-name {
+    font-weight: lighter;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.durable-furniture-content {
+    color: rgb(94, 92, 107);
+    width: 100%;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.collec-footer-seconddiv {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.collec-footer-seconddiv-firstsec {
+    width: 50%;
+    background-image: url("src/assets/picture/FooterBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+.collec-footer-seconddiv-Secondsec {
+    width: 50%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("src/assets/picture/emailBackground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.collec-footer-seconddiv-Secondsec-firstdiv {
+    width: 100%;
+    padding-left: 40px;
+}
+
+.collec-footer-seconddiv-Secondsec-heading {
+    display: flex;
+    font-weight: lighter;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+.collec-footer-seconddiv-Secondsec-content {
+    display: flex;
+    color: rgb(94, 92, 107);
+    width: 100%;
+    padding-bottom: 40px;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.collec-footer-seconddiv-Secondsec-EmailAddress {
+    width: 60%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 25px;
+    background-color: white;
+    border: 1px solid rgb(217, 217, 217);
+}
+
+.collec-footer-seconddiv-Secondsec-EmailInputbox {
+    width: 80%;
+    border: white;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.collec-footer-seconddiv-Secondsec-emaiIcon {
+    width: 25px;
+    background-color: white;
+    height: 25px;
+    padding-right: 30px;
+}
+
+@media (max-width: 768px) {
+    .collec-footer-firstdiv {
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .durable-furniture-div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .collec-footer-seconddiv {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .collec-footer-seconddiv-firstsec,
+    .collec-footer-seconddiv-Secondsec {
+        width: 100%;
+        height: 300px; 
+    }
+
+    .collec-footer-seconddiv-Secondsec-firstdiv {
+        padding-left: 20px;
+    }
+
+    .collec-footer-seconddiv-Secondsec-heading {
+        font-size: 30px; 
+    }
+
+    .collec-footer-seconddiv-Secondsec-content {
+        font-size: 16px; 
+    }
+
+    .collec-footer-seconddiv-Secondsec-EmailAddress {
+        width: 90%; 
+    }
+
+    .collec-footer-seconddiv-Secondsec-EmailInputbox {
+        font-size: 18px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .durable-furniture-name {
+        font-size: 24px; 
+    }
+}
+

@@ -1,0 +1,224 @@
+.coll-core {
+    width: 100%;
+    height: 600px;
+    background-image: url("src/assets/picture/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+
+.coll-decdiv {
+    padding-top: 180px;
+}
+
+.coll-decdivH1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.25em;
+    letter-spacing: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.coll-decdivH4 {
+    padding-top: 30px;
+    color: white;  
+    font-size: 20px; 
+}
+
+.collection-page-product {
+    margin: 0 100px;
+    padding: 20px 100px;
+}
+
+.ecom-core-block {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.filterImg {
+    width: 20px;
+    height: 25px;
+}
+
+.filter-button {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    background-color: white;
+    border: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.collect-button {
+    display: flex;
+    gap: 20px;
+}
+
+.first-button-butt,
+.second-button,
+.third-button,
+.fourth-button,
+.fifth-button {
+    background-color: white;
+    border: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.first-button, .second-button-img, .third-button-img, .fourth-button-img, .fifth-button-img {
+    width: 15px;
+    height: 15px; 
+}
+
+.sec-button-butt2 {
+    margin:0px;
+    padding: 0px;
+    background-color: white;
+    border: white;
+    position: relative;
+    right: 7px; 
+    top: 0; 
+    z-index: 1;
+}
+
+.fourth-button-img3{
+    width:15px;
+    height:15px; 
+    margin:0px;
+    padding: 0px;
+    background-color: white;
+    border: white;
+    position: relative;
+    right: 7px; 
+    top: 0; 
+    z-index: 1;  
+}
+
+.sort-by {
+    display: flex;
+    gap: 10px;
+}
+
+.feature-para {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.feature {
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    border-radius: 10px;
+    border: white;
+    background-color: white;
+}
+
+.show-more-propra {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.show-more-proButton {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+@media (max-width: 1200px) {
+    .collection-page-product {
+        margin: 0 50px;
+        padding: 20px 50px;
+    }
+
+    .coll-decdivH1 {
+        font-size: 36px;
+    }
+
+    .coll-decdivH4 {
+        font-size: 18px;
+    }
+
+    .ecom-core-block {
+        gap: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .coll-decdiv {
+        padding-top: 100px;
+    }
+
+    .coll-decdivH1 {
+        font-size: 28px;
+    }
+
+    .coll-decdivH4 {
+        font-size: 16px;
+    }
+
+    .collection-page-product {
+        margin: 0 20px;
+        padding: 10px 20px;
+    }
+
+    .ecom-core-block {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .filter-button {
+        width: 80px;
+        height: 25px;
+        font-size: 16px;
+    }
+
+    .show-more-proButton {
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .coll-decdivH1 {
+        font-size: 24px;
+    }
+
+    .coll-decdivH4 {
+        font-size: 14px;
+    }
+
+    .filter-button {
+        width: 60px;
+        height: 20px;
+        font-size: 14px;
+    }
+
+    .show-more-proButton {
+        height: 35px;
+        font-size: 16px;
+    }
+
+    .ecom-core-block {
+        gap: 20px;
+    }
+}

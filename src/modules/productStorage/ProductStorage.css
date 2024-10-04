@@ -1,0 +1,134 @@
+.first-button-onclick,
+.second-button-onclick,
+.third-button-onclick,
+.fourth-button-onclick,
+.fifth-button-onclick {
+    padding: 0px 50px 0px 180px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.first-proStorDiv{
+    width:45%;
+}
+.second-proStorDiv{
+    width:30%;
+}
+.third-proStorDiv{
+    width:22.5%;
+}
+.fourth-proStorDiv{
+    width:18%;
+}
+.fifth-proStorDiv{
+    width:15%;
+}
+
+.first-proStorDivImg,
+.second-proStorDivImg,
+.third-proStorDivImg,
+.fourth-proStorDivImg,
+.fifth-proStorDivImg {
+    width: 100%;
+}
+
+.proStore-Imagename,
+.prodtore-imagePrice {
+    display: flex;
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pro-Store-feature {
+    width: 100%;
+    display: flex;
+    padding: 5px 0;
+    justify-content: space-between;
+    border-top: 1px solid #d8d8d8;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.pro-Store-Addbuttondiv {
+    width: 70%;
+    height: 10%;
+}
+
+.pro-Store-Addbutton {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    border: white;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 110%;
+    justify-content: start;
+    align-items: center;
+}
+
+.pro-Stor-AddcartImg {
+    width: 12%;
+    padding-right: 3%;
+}
+
+.pro-Store-likefeature {
+    display: flex;
+    justify-content: end;
+    width: 30%;
+    height: 1%;
+    gap: 5px;
+}
+
+.pro-Stor-heart,
+.pro-stor-shuffle {
+    width: 20%;
+}
+
+
+@media (max-width: 1200px) {
+    .first-proStorDiv,
+    .second-proStorDiv,
+    .third-proStorDiv,
+    .fourth-proStorDiv,
+    .fifth-proStorDiv {
+        width: 30%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .first-proStorDiv,
+    .second-proStorDiv,
+    .third-proStorDiv,
+    .fourth-proStorDiv,
+    .fifth-proStorDiv {
+        width: 45%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .first-proStorDiv,
+    .second-proStorDiv,
+    .third-proStorDiv,
+    .fourth-proStorDiv,
+    .fifth-proStorDiv {
+        width: 100%; 
+    }
+
+    .first-button-onclick,
+    .second-button-onclick,
+    .third-button-onclick,
+    .fourth-button-onclick,
+    .fifth-button-onclick {
+        padding: 0px 20px; 
+    }
+
+    .pro-Store-Addbutton {
+        height: auto; 
+    }
+
+    .pro-Store-likefeature {
+        width: 50%; 
+    }
+}
+
