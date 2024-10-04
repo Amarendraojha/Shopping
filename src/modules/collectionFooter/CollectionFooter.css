@@ -41,7 +41,7 @@
 
 .collec-footer-seconddiv-firstsec {
     width: 50%;
-    background-image: url("src/assets/picture/FooterBackground.jpg");
+    background-image: url("http://localhost:5173/src/assets/picture/FooterBackground.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("src/assets/picture/emailBackground.png");
+    background-image: url("http://localhost:5173/src/assets/picture/emailBackground.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
